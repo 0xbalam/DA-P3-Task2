@@ -10,7 +10,7 @@ function App() {
         <>
             <WalletContextProvider>
                 <NavBar />
-                <div className="App">
+                <div className="App"  style={{ width: '100%' }}>
                 <Box
                 sx={{
                     display: 'flex',

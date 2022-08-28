@@ -14,7 +14,7 @@ const TokenListView: FC = () => {
         if (wallet.publicKey) {
             getSplTokenAccounts();
         }
-    });
+    }, [wallet.publicKey]);
 
     async function getSplTokenAccounts() {
 
